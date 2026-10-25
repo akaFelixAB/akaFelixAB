@@ -1,5 +1,3 @@
-# akaFelixAB
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akafelixab/akafelixab/gitascii/profiles/default/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akafelixab/akafelixab/gitascii/profiles/default/light.svg">
