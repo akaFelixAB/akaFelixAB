@@ -1431,7 +1431,10 @@
         "animationType": "fade-in",
         "animationPreviewKey": 1,
         "hideBorder": true,
-        "langsCount": 8
+        "langsCount": 8,
+        "showPercentage": true,
+        "customTitle": "",
+        "langsLayout": "bars"
       },
       "locked": false,
       "visible": true,
@@ -1443,7 +1446,7 @@
       "name": "Tech-stack Widget",
       "position": {
         "x": 512,
-        "y": 354
+        "y": 386
       },
       "size": {
         "width": 280,
@@ -1466,7 +1469,8 @@
         "animationType": "fade-in",
         "animationPreviewKey": 3,
         "hideDecorations": true,
-        "hideBorder": true
+        "hideBorder": true,
+        "showTitle": false
       },
       "locked": false,
       "visible": true,
