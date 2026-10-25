@@ -11,22 +11,29 @@
         "width": 800,
         "height": 90
       },
-      "config": {},
+      "config": {
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "backgroundColor": "github-auto",
+        "hideBorder": true,
+        "accentColor": "#80d0ff",
+        "hideDecorations": false
+      },
       "locked": false,
       "visible": true,
       "zIndex": 1,
-      "instanceId": "widget_1792960829807_0"
+      "instanceId": "widget_1792968180758_0"
     },
     {
       "widgetId": "ascii-art",
       "name": "Ascii-art Widget",
       "position": {
-        "x": 0,
-        "y": 106
+        "x": 8,
+        "y": 98
       },
       "size": {
-        "width": 280,
-        "height": 280
+        "width": 288,
+        "height": 288
       },
       "config": {
         "detail": "lowest",
@@ -36,31 +43,31 @@
         "lockAspectRatio": true,
         "rows": 25,
         "asciiText": [
-          "::;::;::;::;::;::;::;::;::;::;::;::;::;::;::;::;::",
-          ";................................................;",
-          ":.........................,.,..,,,...............:",
-          ":.....,....,....,..,..,.,,,,.:;r3s,....,....,....;",
-          ";..,.....,....,..,,,,,,,,. ,iA3SB#s.,.....,......:",
-          ":.............,::iiii:.. :r2h#MH@Sr............,.;",
-          ":..........,:rXAriiii;:.,XAh#9#hAi,,,,,..........:",
-          ";...,..,.,,s23A5Xi;::::,,;rA3GXii;::: ,,,...,....;",
-          ":.......,s332AXs;:;;iiirrrriirXA222A2r:.,,.......:",
-          ":.,....,sSG5s::::i;;;;iirXXXXsssXXAXX52; ,,.....,:",
-          ";.....,sMhGX:,:;i;;;;;;irXsrsrsX2552sX2X;..,..,..:",
-          ":....,iG9MX:,:;;;;;;;;isXsrrrs5hMhhM3Xs52:.,.....;",
-          ":.....iGh3i:::;i;;;;;;rssrsrsAh35555h3sXA:.,.....:",
-          ";...,.iHM3;,,;;i;;:;;rrssrrrrs5hhhhh3ArA2:.,.....;",
-          ":.....iGH3;.,;;i:;;;;;rXssrsrrsX553XXssA2:.,.....:",
-          ":.,..,;3H5A:,:iii;:;;;;sssrrsrsrssX555X5X,.,...,.;",
-          ";.....,s32MX,.:;ii;;:;;;rXssrrrrsrsXA25s,,,......:",
-          ":......:rh52r:.,ii;;;;;;issXsssrsrrX52X,.,..,....;",
-          ":.......,r2A2;,,,irriiii;;rsXsXXA252X;.,,.,......:",
-          ";...,....,;sr,,:::;;i;iirirssXA2AXs;.,,,.......,.;",
-          ":..........,,.....,:,::;iii;;i;;....,............:",
-          ":.,....,......,.,..      .    ..,,,..,......,....;",
-          ";...........,...,.,,,,,,,,,,,,,,.........,.......:",
-          ":....,....,........................,...........,.;",
-          ":;:;::;:;:::;:;:;:;:;:;:;:;:;:;:;:;::;:;:;:;:;::::"
+          ".,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,",
+          ".. . .. .. .. .. .. .. .. .. .. .. .. .. .. .. ...",
+          "... . . . . . . . . . . . .. . .... . . . . . . ..",
+          ".. .. . . . . . . .. . ......,:i5s. . . . . . . ..",
+          ".. . . .. .. ......,.....  ,;s5S&#r.. .. . .. .. ,",
+          "... . . . . . .,,;;;;,.  ,iXhGMH@Hi. . . .. . . ..",
+          ".. . .. .. .,rssi;;;;:,.,rX3GSG5A;...... . . . . ,",
+          ".. .. . ..,rA2X2s;:,,:,,.:iX5hs;;;::,. ... .. .. .",
+          "... . ...r552Xrr:,;;;i;iriiiiirXXXXXXr: ... . . ..",
+          ".. . . .rHH2i:,,:;;;;;i;isrriiiiirrirXA; .. . . ..",
+          ".. . ..rM3Gs,,,:i;;:;:;;riiiiiiiXsXsiiXr: ... .. ,",
+          "... ..;H#hs,,,:i;;:;:;;riii;iisA2222XriXX:.. . . .",
+          ".. . .iMh5:,,:;;::;:;;riiiii;rAAXXXX2XirX: .. . .,",
+          ".. .. iMh5;,,:;;;:::;iiii;iiiis2222AXriiX: .. .. .",
+          "... ..;HH5:..:;;;:;:;;iiii;iiiirsXXrriirs:.. . ...",
+          ".. . .:5M2s,.,;r;:;::;;rrii;i;iiiiiXsXiAX, ... . ,",
+          ".. . ..r5X3r,.,;i;;:;::;iiiiii;iiiiisrAr,... . . .",
+          "... . .,i55Ai,..;i;;:;;:iriiiii;i;irXXs, .. . . ..",
+          ".. . . ..iAXX;..,;riiii;:;irriiisXXXs:.... .. ....",
+          ".. .. . ..:r;.,,,,:;;;;iiirrrsXXsri; ..... . . . ,",
+          "... . .. . ,.. ....,.,,:;;;:;;;;.. ..... . .. . ..",
+          ".. . . .. .. .. .       . .    ....... . . . . . ,",
+          ".. .. . . . . ..................... . . . . . .. .",
+          "... . . .. . . . . ...... ..... . . . . .. .. . ..",
+          "...,..,...,.,.,...,......,.....,...,..,...,..,..,."
         ],
         "asciiColors": [
           [
@@ -1365,117 +1372,139 @@
           ]
         ],
         "colorMode": "color",
-        "animationType": "none",
-        "animationPreviewKey": 6,
-        "backgroundColor": "github-auto",
-        "contrast": -20,
-        "brightness": 25,
-        "invert": false
+        "contrast": 45,
+        "brightness": 35,
+        "customTitle": "",
+        "animationType": "typewriter",
+        "animationPreviewKey": 1,
+        "animationDuration": 2000,
+        "hideBorder": true,
+        "backgroundColor": "github-auto"
       },
       "locked": false,
       "visible": true,
       "zIndex": 2,
-      "instanceId": "widget_1792960829807_1"
+      "instanceId": "widget_1792968180758_1"
     },
     {
       "widgetId": "terminal-info",
       "name": "Terminal-info Widget",
       "position": {
         "x": 296,
-        "y": 106
+        "y": 130
       },
       "size": {
         "width": 488,
-        "height": 280
+        "height": 224
       },
       "config": {
-        "showStatus": false,
-        "showFollowing": false,
-        "showJoined": false,
-        "showTimezone": false,
-        "showEmail": false,
-        "headerColor": "#c5ff4a",
-        "labelColor": "#ffa657",
+        "backgroundColor": "github-auto",
+        "headerColor": "#7aa2f7",
+        "labelColor": "#ff9e64",
         "dotColor": "#484f58",
         "valueColor": "#f0f6fc",
         "statsValColor": "#79c0ff",
         "dividerColor": "#30363d",
-        "showAchievements": false,
-        "showHighlights": false,
-        "showOrgs": false,
-        "showGists": false
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "hideBorder": true,
+        "dotLeaders": true
       },
       "locked": false,
       "visible": true,
       "zIndex": 3,
-      "instanceId": "widget_1792960829807_2"
+      "instanceId": "widget_1792968180758_2"
     },
     {
       "widgetId": "languages",
       "name": "Languages Widget",
       "position": {
         "x": 0,
-        "y": 402
+        "y": 354
       },
       "size": {
-        "width": 536,
-        "height": 160
+        "width": 512,
+        "height": 184
       },
       "config": {
-        "langsLayout": "bars",
-        "langsCount": 6,
         "accentColor": "#88c0d0",
-        "backgroundColor": "#060606"
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "hideBorder": true,
+        "langsCount": 8
       },
       "locked": false,
       "visible": true,
       "zIndex": 4,
-      "instanceId": "widget_1792960829807_3"
+      "instanceId": "widget_1792968180758_3"
     },
     {
       "widgetId": "tech-stack",
       "name": "Tech-stack Widget",
       "position": {
-        "x": 544,
-        "y": 402
+        "x": 512,
+        "y": 354
       },
       "size": {
-        "width": 240,
-        "height": 160
+        "width": 280,
+        "height": 184
       },
       "config": {
         "selectedTechs": [
           "cpp",
           "c",
+          "py",
           "java",
           "rust",
-          "py",
           "linux",
           "docker",
           "mysql"
         ],
         "theme": "dark",
         "perLine": 4,
+        "customTitle": "[TECH STACK]",
         "animationType": "fade-in",
-        "animationPreviewKey": 4,
-        "customTitle": "[TECH STACK]"
+        "animationPreviewKey": 3,
+        "hideDecorations": true,
+        "hideBorder": true
       },
       "locked": false,
       "visible": true,
       "zIndex": 6,
-      "instanceId": "widget_1792960829807_5"
+      "instanceId": "widget_1792968180758_5"
+    },
+    {
+      "instanceId": "widget_1792969710227",
+      "widgetId": "divider",
+      "name": "Divider Widget",
+      "position": {
+        "x": 0,
+        "y": 84
+      },
+      "size": {
+        "width": 800,
+        "height": 30
+      },
+      "config": {
+        "hideBorder": true,
+        "animationType": "fade-in",
+        "animationPreviewKey": 1
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
     }
   ],
   "globalStyles": {
-    "backgroundColor": "#060606",
+    "backgroundColor": "github-auto",
     "textColor": "#e5e5e5",
-    "accentColor": "#c5ff4a",
+    "accentColor": "#7aa2f7",
     "borderColor": "#252525",
     "fontFamily": "'JetBrains Mono', monospace",
-    "borderRadius": 2,
-    "padding": 20,
+    "borderRadius": 6,
+    "padding": 24,
     "themeMode": "dark",
     "templateStyle": "native"
   },
-  "templateId": "terminal"
+  "templateId": "native"
 }
